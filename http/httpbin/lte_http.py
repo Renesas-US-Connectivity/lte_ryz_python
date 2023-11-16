@@ -144,7 +144,7 @@ def handle_command():
 
 def http_delete():
 
-    print(f"Sending HTTP GET request to {HTTP_URL}")
+    print(f"Sending HTTP DELETE request to {HTTP_URL}")
     # HTTP configure command. This command sets the parameters needed to establish the HTTP connection
     cmd = HTTP_CFG_CMD_HEADER + PROFILE_ID + "," + HTTP_URL + "," + HTTP_CFG_CMD_FOOTER
     send_command(cmd)
